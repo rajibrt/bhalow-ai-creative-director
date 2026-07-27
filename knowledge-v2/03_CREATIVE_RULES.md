@@ -1,85 +1,92 @@
 # 03 — Creative Style and Composition Rules
 
+**Knowledge version:** 3.0.0  
+**Status:** Production
+
 ## Purpose
 
-Define how Bhalow selects and executes a luxury creative style after the Creative Intent Engine classifies the request.
+Define how Bhalow executes luxury creative direction after intent, audience, and platform have been classified.
 
 ## Core Principle
 
-Style is not decoration. Style controls mood, composition, lighting, materials, typography, and camera language.
+Style is not decoration. It controls mood, composition, lighting, materials, wardrobe, grooming, typography, camera language, and commercial usability.
 
-## Creative Style Library
+## Human Campaign Style Systems
 
-### Beauty Editorial
+### Women's Luxury Editorial
 
-Use for human + fragrance campaigns.
-
-- Face or upper body may occupy 55–70% of the frame.
+- Use when feminine beauty, couture, floral, radiant, romantic, or elegant positioning is appropriate.
+- Face or upper body may occupy 50–70% of the frame.
 - Product should occupy 20–40% and remain readable.
-- Use refined skin texture, premium makeup, elegant jewelry, and natural hand placement.
-- Expression should feel poised, confident, intimate, or aspirational.
-- Avoid exaggerated beauty retouching and artificial plastic skin.
+- Use realistic skin, refined makeup, elegant wardrobe, natural hands, and premium beauty lighting.
+- Vary the direction: polished, modern, confident, intimate, minimal, dramatic, or fashion-led.
+- Do not default every women's fragrance to pink, roses, glitter, exposed shoulders, or identical beauty poses.
+
+### Men's Luxury Editorial
+
+- Use when masculine, grooming, woody, aromatic, leather, aquatic, spicy, or evening positioning is appropriate.
+- Use confident posture, clean grooming, believable hands, and premium wardrobe such as tailoring, knitwear, leather accents, or elevated casual styling.
+- Favor sculptural key light, controlled rim light, readable shadows, and strong product separation.
+- Product may be held near the jaw, chest, lapel, wrist, or placed in the foreground.
+- Avoid aggression, exaggerated muscles, generic nightclub imagery, excessive smoke, and automatic black-and-gold clichés.
+
+### Unisex Luxury Editorial
+
+- Use for niche, modern, artistic, minimalist, shared, or gender-neutral positioning.
+- Use contemporary fashion, neutral grooming, architectural composition, restrained colors, and balanced visual hierarchy.
+- Avoid coding the campaign as masculine or feminine unless the product positioning supports it.
+
+### Couple and Shared-Fragrance Campaign
+
+- Use believable body language and natural proximity.
+- Keep the fragrance clearly visible and avoid awkward product passing.
+- Maintain one dominant focal point.
+- Avoid stereotyped romance, wedding styling, or sexualized posing unless explicitly requested.
+
+### Luxury Grooming
+
+- Use close portrait, dressing ritual, collar, wrist, watch, jacket, shaving, or evening-preparation cues.
+- Keep grooming polished rather than hyper-masculine.
+- Product and face must both remain resolved.
+
+## Product Interaction Rules
+
+- Hands must be anatomically correct and naturally posed.
+- Fingers must not cover the brand name or label.
+- The bottle must not merge into skin, hair, clothing, or props.
+- Preserve cap, neck, bottle geometry, label, colors, and packaging.
+- Avoid duplicated fingers, floating products, impossible grips, and distorted scale.
+
+## Product-Led Style Library
 
 ### Minimal Editorial
-
-Use for single-product magazine-style campaigns.
-
-- Product occupies 55–80% of the visual hierarchy.
-- Use minimal typography and strong negative space.
-- Prefer one or two supporting objects only.
-- Use neutral, stone, ivory, smoke, black, or restrained color fields.
+- Product occupies 55–80% of hierarchy.
+- Use strong negative space and one supporting material family.
+- Favor neutral, stone, ivory, smoke, black, or restrained color fields.
 
 ### Commercial Luxury
-
-Use for retail-facing banners and conversion assets.
-
-- Clear product hero.
-- Dedicated copy zone.
-- Dedicated CTA zone.
-- Strong readability and platform-safe spacing.
+- Clear product hero, copy zone, CTA zone, and platform-safe spacing.
 - Avoid full website UI unless explicitly requested.
 
 ### Dark Luxury
-
-Use for woody, leather, oud, spicy, evening, and masculine fragrance moods.
-
-- Deep black, charcoal, bronze, dark brown, burgundy, or onyx.
-- Controlled high contrast.
-- Rim lighting and warm highlights.
-- Avoid crushed shadows hiding product details.
+- Suitable for woody, leather, oud, spicy, evening, and some masculine or unisex directions.
+- Use charcoal, bronze, dark brown, burgundy, onyx, smoked glass, or deep stone.
+- Preserve label visibility and avoid crushed shadows.
 
 ### Golden Luxury
-
-Use for amber, oriental, gifting, celebration, and premium occasion campaigns.
-
-- Champagne, warm gold, silk, brass, crystal, amber glass.
-- Soft cinematic glow.
-- Avoid excessive glitter and fake metallic effects.
+- Suitable for amber, gifting, celebration, warm gourmand, and premium occasion campaigns.
+- Use champagne, warm gold, silk, brass, crystal, amber glass, and controlled glow.
+- Avoid excessive glitter or fake metallic effects.
 
 ### Botanical Luxury
-
-Use for floral, green, fresh, and natural fragrance moods.
-
-- Controlled flowers, leaves, petals, stems, and soft mist.
-- Props must frame the product, not cover it.
-- Avoid dense garden scenes unless explicitly requested.
+- Suitable for floral, green, fresh, and nature-led directions.
+- Botanicals frame the product and never imply unverified ingredients.
+- Avoid uncontrolled garden clutter.
 
 ### Glass and Water Luxury
-
-Use for aquatic, fresh, citrus, and clean fragrance directions.
-
-- Crystal glass, water ripples, droplets, pale blue, silver, transparent layers.
-- Preserve realistic refraction and reflections.
-- Avoid product distortion through excessive water effects.
-
-## Human + Product Rules
-
-- Hands must hold the bottle naturally and anatomically correctly.
-- Fingers must not cover the brand name or label.
-- The product should not merge into the hand, face, hair, or clothing.
-- Keep cap, neck, bottle geometry, and label consistent with the reference.
-- Eye line and pose should support the product story.
-- Avoid awkward grip, duplicated fingers, and floating product placement.
+- Suitable for aquatic, fresh, citrus, and clean directions.
+- Use realistic water, refraction, droplets, and transparent layers.
+- Avoid bottle distortion or label obstruction.
 
 ## Commercial Hero Rules
 
@@ -88,51 +95,48 @@ A homepage hero is a standalone visual asset, not a complete webpage.
 Never add unless explicitly requested:
 - Navigation
 - Menu items
-- Search icon
-- Account icon
-- Cart icon
-- Header
-- Footer
+- Search, account, or cart icons
+- Header or footer
 - Browser frame
 - Product grid
 - Full website interface
 
-A hero visual should contain:
-- Product or collection hero
+A hero should contain:
+- Product or campaign hero
 - Premium background
 - Copy-safe area
 - CTA-safe area
-- Logo-safe area if required
+- Logo-safe area when required
 - Responsive-safe composition
 
 ## Product Scale Guidance
 
-- Homepage hero: product usually occupies 35–55% of visual width.
-- Editorial product ad: product usually occupies 55–80% of hierarchy.
-- Beauty campaign: product usually occupies 20–40% while remaining readable.
-- Website thumbnail: product occupies approximately 65–85% of the canvas with safe margins.
+- Homepage hero: 35–55% of visual width
+- Editorial product ad: 55–80% of hierarchy
+- Human campaign: product 20–40% while remaining readable
+- Social post: product 40–65% of hierarchy
+- Website thumbnail: product 65–85% of canvas height with safe margins
 
 ## Negative Space
 
 - Luxury requires visible breathing room.
-- Do not fill empty areas simply because they are empty.
-- Keep copy away from busy textures and product labels.
-- More controlled space generally increases premium perception.
+- Empty space is intentional, not unfinished.
+- Keep copy away from busy textures, faces, hands, and product labels.
 
 ## Typography
 
-- Use premium editorial serif for headline where appropriate.
+- Use premium editorial serif when appropriate.
 - Use clean modern sans-serif for support copy and CTA.
 - Limit to two font families.
-- Keep campaign text short.
-- Do not invent or recreate brand logos as typography.
+- Keep image copy short and mobile-readable.
+- Never imitate a brand logo using ordinary typography.
 
 ## Logo Handling
 
-- Do not redraw or imitate the Bhalow logo.
+- Never redraw, imitate, recolor, stretch, crop, or recreate the official Bhalow logo.
 - Reserve a clean placement zone when logo integration is requested.
-- Exact official logo should be composited in post-production when fidelity matters.
+- Use the official logo asset in post-production when exact fidelity matters.
 
 ## Final Rule
 
-Every style decision must improve product recognition, luxury perception, and commercial usability.
+Every style decision must improve product recognition, audience relevance, luxury perception, and commercial usability without relying on gender stereotypes.
