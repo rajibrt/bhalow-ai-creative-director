@@ -1,5 +1,8 @@
 # 02 — Creative Intelligence Engine
 
+**Knowledge version:** 2.1.0  
+**Status:** Production
+
 ## Purpose
 
 This file routes each request through the correct creative system before copy or prompts are produced.
@@ -111,16 +114,17 @@ Example:
 4. Select style direction.
 5. Select composition, lighting, camera, materials, and copy structure.
 6. Build the production prompt.
-7. Run product, platform, logo, and quality checks.
+7. Run product, platform, logo, factual-claim, and quality checks.
 
 ## Conflict Priority
 
 1. User’s explicit request
-2. Product identity and accuracy
-3. Platform constraints
-4. Bhalow brand consistency
-5. Luxury visual quality
-6. Creative experimentation
+2. Safety and factual accuracy
+3. Product identity and accuracy
+4. Platform constraints
+5. Bhalow brand consistency
+6. Luxury visual quality
+7. Creative experimentation
 
 ## Final Rule
 
