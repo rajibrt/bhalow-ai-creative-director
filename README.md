@@ -1,33 +1,34 @@
 # Bhalow AI Creative Director
 
-Production knowledge system for **Bhalow**, a US-first premium fragrance and beauty e-commerce brand.
+Production operating system for **Bhalow**, a US-first premium fragrance and beauty e-commerce brand.
 
 ## Release
 
-- **Current version:** 2.1.0
-- **Status:** Production release candidate
+- **Current version:** 3.0.0
+- **Status:** Production
 - **Primary market:** United States
 - **Customer-facing language:** US English
 - **Currency:** USD
 - **Website:** www.bhalow.com
 
-## What This Repository Does
+## What v3 Adds
 
-This repository is the source of truth for the Bhalow AI Creative Director Custom GPT. It defines how the GPT:
+- Women's, men's, unisex, couple, lifestyle, and grooming campaign intelligence
+- Clear Create, Analyze, Copy, and Analyze-and-Create operating modes
+- Fragrance-direction routing without inferring facts from bottle color
+- Stronger factual-accuracy priority
+- Platform-specific creative behavior
+- Complete GPT Builder setup documentation and conversation starters
 
-- Classifies creative requests
-- Selects campaign direction
-- Protects product and logo identity
-- Builds luxury compositions
-- Writes US-market copy
-- Produces campaign prompts and creative blueprints
-- Applies platform and quality checks
+## GPT Builder Setup
 
-The GPT should behave like a senior creative director, not a generic prompt writer.
+1. Copy `instructions/GPT_INSTRUCTIONS.md` into the GPT Builder Instructions field.
+2. Follow `gpt-builder/GPT_SETUP.md` for name, description, capabilities, and release tests.
+3. Use `gpt-builder/GPT_CONVERSATION_STARTERS.md` for approved conversation starters.
+4. Remove superseded knowledge files from the GPT.
+5. Upload only the eight active files below in numeric order.
 
 ## Production Knowledge Set
-
-Upload these eight files to the Custom GPT Knowledge section in numeric order:
 
 ```text
 knowledge-v2/
@@ -41,91 +42,63 @@ knowledge-v2/
 └── 08_MEMORY.md
 ```
 
-### File Responsibilities
+Do not upload legacy knowledge files together with this package.
+
+## File Responsibilities
 
 | File | Responsibility |
 |---|---|
 | `01_CORE_FOUNDATION.md` | Brand identity, operating principles, market position, quality bar |
-| `02_ENGINE.md` | Intent detection, routing, execution order, conflict priority |
-| `03_CREATIVE_RULES.md` | Style, composition, typography, logo, hierarchy, negative space |
-| `04_TEMPLATES.md` | Campaign systems and production prompt structures |
+| `02_ENGINE.md` | Operating modes, intent routing, human campaign selection, fragrance and platform logic |
+| `03_CREATIVE_RULES.md` | Inclusive human art direction, composition, typography, hierarchy, logo and safe-area rules |
+| `04_TEMPLATES.md` | Production campaign systems and executable prompt structures |
 | `05_PRODUCT_SYSTEM.md` | Product preservation, scale, materials, camera, interaction, QA |
-| `06_COPY_SYSTEM.md` | US-English brand voice, headlines, CTA, promotional and claim rules |
-| `07_EXAMPLES.md` | Reusable campaign blueprints and decision examples |
+| `06_COPY_SYSTEM.md` | US-English brand voice, headlines, CTA, promotional and factual-claim rules |
+| `07_EXAMPLES.md` | Women's, men's, unisex, strategy, copy, hero, social, CGI and product blueprints |
 | `08_MEMORY.md` | Compact permanent defaults and recurring constraints |
 
-## Custom GPT Setup
+## Required Release Tests
 
-1. Open the Bhalow AI Creative Director in GPT Builder.
-2. Keep the approved production instructions in the Instructions field.
-3. Remove superseded knowledge files from the GPT.
-4. Upload the eight files from `knowledge-v2/` in numeric order.
-5. Enable Image Generation and Web Search when available and appropriate.
-6. Save the GPT and run the release tests below.
+### Men's Campaign
+Prompt: `Create a luxury men's fragrance campaign.`
 
-## Release Tests
+Expected: premium grooming and wardrobe, natural confidence, correct anatomy, visible product, no macho or generic black-and-gold clichés.
 
-The GPT should pass these minimum tests before production use:
+### Women's Campaign
+Prompt: `Create a luxury women's fragrance campaign.`
 
-### Website Thumbnail
+Expected: refined contemporary beauty direction without automatically using pink, roses, glitter, or identical poses.
 
-Prompt: `Create a website thumbnail from this product image.`
+### Unisex Campaign
+Prompt: `Create a premium unisex fragrance campaign.`
 
-Expected:
-
-- 1:1
-- Product only
-- White or soft neutral background
-- No copy, CTA, logo, or campaign props
+Expected: modern gender-neutral editorial direction without forced stereotypes.
 
 ### Homepage Hero
+Prompt: `Create a homepage hero banner for this product.`
 
-Prompt: `Create a premium homepage hero banner for this fragrance.`
+Expected: standalone artwork, product 35–55% width, copy/CTA-safe space, no navigation or website UI.
 
-Expected:
+### Website Thumbnail
+Prompt: `Create a clean website thumbnail from this product image.`
 
-- Standalone hero artwork
-- Product occupies approximately 35–55% of width
-- Copy-safe and CTA-safe areas
-- No navigation, search, account, cart, header, footer, browser frame, or full website UI
+Expected: 1:1, product only, neutral background, no copy, CTA, logo, or props.
 
-### Luxury Beauty Campaign
+### Mode Tests
 
-Prompt: `Create a luxury beauty campaign with a model holding this fragrance.`
-
-Expected:
-
-- Natural anatomy and grip
-- Product label visible
-- Product identity preserved
-- Premium beauty lighting
-
-### Social Campaign
-
-Prompt: `Create a premium Facebook post for this product.`
-
-Expected:
-
-- Product-first campaign direction
-- Mobile-readable hierarchy
-- Concise US-English copy
-- No invented price, discount, claims, or product facts
+- `Analyze this fragrance and recommend the best creative direction.` → strategy text only
+- `Write premium US-market marketing copy for this product.` → copy text only
+- `Analyze this fragrance and create the strongest campaign concept.` → analysis-led creation, not analysis-only
 
 ## Governance
 
-- `knowledge-v2/` is the active production knowledge base.
-- Old folders may remain as historical references but must not be uploaded together with `knowledge-v2/`.
-- New rules must be placed in the file responsible for that domain.
-- Avoid duplicating the same rule across multiple files unless it is a critical permanent constraint.
+- GitHub is the source of truth.
+- `knowledge-v2/` is the active GPT knowledge package.
+- `instructions/` contains the production system instructions.
+- `gpt-builder/` contains UI configuration and recovery documentation.
 - Update `CHANGELOG.md` and `VERSION.md` with every release.
-
-## Product and Logo Safety
-
-- Uploaded product references are the source of truth.
-- Never intentionally redesign a bottle, label, cap, package, or product variant.
-- Never recreate, redraw, recolor, crop, stretch, or imitate the official Bhalow logo.
-- When exact fidelity cannot be guaranteed, reserve a clean compositing area for post-production.
+- Safety and factual accuracy always override creative requests.
 
 ## Core Promise
 
-Every output should improve product recognition, luxury perception, customer trust, commercial usability, and Bhalow brand consistency.
+Every output should improve product recognition, audience relevance, luxury perception, customer trust, commercial usability, and Bhalow brand consistency.

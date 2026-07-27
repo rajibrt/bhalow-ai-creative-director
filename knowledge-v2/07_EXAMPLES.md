@@ -1,366 +1,168 @@
 # 07 — Creative Blueprint Library
 
-**Knowledge version:** 2.1.0  
+**Knowledge version:** 3.0.0  
 **Status:** Production
 
 ## Purpose
 
-Provide reusable campaign blueprints that demonstrate how intent, composition, lighting, camera, copy, and quality controls work together.
+Provide decision examples. Adapt every blueprint to the uploaded product, verified information, audience, platform, and objective. Examples are not rigid layouts.
 
-Examples are guidance, not rigid templates. Adapt them to the uploaded product, platform, and objective.
+## Blueprint 01 — Women's Contemporary Beauty
 
----
+- Objective: elegant human + fragrance campaign without defaulting to stereotypes
+- Composition: face/upper body 50–70%; product 20–40%; natural grip
+- Lighting: refined beauty key, controlled rim, realistic skin
+- Styling: modern couture, minimal jewelry, palette derived from product
+- Avoid: automatic pink, roses, glitter, plastic skin, covered label
+- QA: anatomy, fingers, product fidelity, audience relevance
 
-## Blueprint 01 — Commercial Homepage Hero
+## Blueprint 02 — Men's Tailored Luxury
 
-### Objective
+- Objective: premium masculine campaign for woody, aromatic, spicy, leather, aquatic, or evening positioning
+- Composition: three-quarter portrait; product near lapel, jaw, wrist, or foreground
+- Lighting: sculptural key, warm or cool rim according to product, readable shadows
+- Styling: tailoring, premium knitwear, leather accent, watch used sparingly
+- Avoid: aggression, bodybuilder pose, excessive smoke, generic nightclub imagery
+- Copy directions: `Presence, Refined` / `Made for the Moment` / `Quietly Distinctive`
+- QA: realistic grooming, hand anatomy, label visibility, no black-on-black loss
 
-Create a premium standalone website hero visual that supports conversion without generating a complete webpage.
+## Blueprint 03 — Men's Luxury Grooming Ritual
 
-### Composition
+- Objective: fragrance as part of dressing or evening preparation
+- Composition: close portrait, collar adjustment, wrist, jacket, mirror, or grooming counter
+- Product: clearly visible and sharply resolved
+- Camera: 50–85mm; shallow depth without losing product detail
+- Avoid: razor/shaving claims unless relevant, cluttered bathroom scenes, macho clichés
 
-- Wide 16:9 or supplied dimensions
-- Product on one side
-- Copy-safe area on the opposite side
-- Product occupies approximately 35–55% of canvas width
-- Separate CTA-safe and logo-safe areas
-- Mobile-safe central hierarchy
+## Blueprint 04 — Unisex Niche Editorial
 
-### Lighting
+- Objective: modern artistic campaign without forced gender coding
+- Composition: architectural negative space, neutral fashion, product-led hierarchy
+- Lighting: soft directional or graphic shadow
+- Materials: stone, paper, glass, brushed metal, fabric
+- Avoid: arbitrary masculine/feminine stereotypes
+- QA: niche sophistication, restrained palette, exact product
 
-- Soft commercial key light
-- Controlled rim light
-- Realistic glass reflections
-- Background contrast sufficient for product separation
+## Blueprint 05 — Couple / Shared Fragrance
 
-### Copy
+- Objective: gifting, shared ritual, celebration, or paired story
+- Composition: believable adult interaction, one dominant focal point, natural proximity
+- Product: one or two verified products only
+- Avoid: stereotyped wedding scene, awkward product passing, duplicated bottles
 
-- Headline: 3–9 words
-- One short supporting line
-- One CTA
+## Blueprint 06 — Commercial Homepage Hero
 
-### Prohibitions
+- Objective: conversion-ready standalone hero visual
+- Composition: wide ratio; product 35–55% width; copy zone opposite; CTA-safe and logo-safe areas
+- Prohibitions: no navigation, search, account, cart, header, footer, browser frame, or product grid
+- QA: responsive crop safety, copy readability, product scale
 
-- No navigation
-- No search, account, or cart icons
-- No header or footer
-- No browser frame
-- No product grid
-- No fabricated Bhalow logo
+## Blueprint 07 — Editorial Product Campaign
 
-### QA Focus
+- Objective: magazine-style single-product advertisement
+- Composition: product 55–80% of hierarchy; front three-quarter or low-angle view
+- Lighting: sculptural directional light and realistic glass highlights
+- Copy: 2–6 word headline; optional one-line support
+- QA: restrained props, accurate geometry, readable label
 
-Product scale, copy readability, responsive crop safety, and absence of website UI.
+## Blueprint 08 — Luxury Social Product Launch
 
----
+- Objective: mobile-readable Facebook or Instagram launch asset
+- Composition: 1:1 or 4:5; product 40–65%; compact headline zone
+- Copy example: `New to Bhalow` / `Discover a distinctive addition to your fragrance collection.` / `Shop Now`
+- Claims: never invent price, discount, warranty, stock, or authenticity guarantee
 
-## Blueprint 02 — Editorial Product Campaign
+## Blueprint 09 — Clean Website Thumbnail
 
-### Objective
+- Objective: e-commerce product-grid image
+- Composition: 1:1; product 65–85% of canvas height; white or soft neutral background
+- Optional: realistic drop shadow
+- Prohibitions: no copy, CTA, logo, campaign props, decorative background
 
-Create a premium magazine-style fragrance advertisement with a single dominant product.
+## Blueprint 10 — Dark Luxury Product World
 
-### Composition
+- Objective: woody, oud, leather, spicy, evening, masculine, or unisex direction
+- Materials: smoked glass, dark stone, bronze, leather, resin, controlled haze
+- Lighting: narrow highlights, warm rim, deep but readable shadows
+- Avoid: crushed label, excessive smoke, automatic black-and-gold styling
 
-- Product occupies 55–80% of hierarchy
-- Front three-quarter or slight low-angle view
-- One supporting material or prop family
-- Generous negative space
+## Blueprint 11 — Botanical Luxury
 
-### Lighting
+- Objective: floral, green, fresh, or nature-led direction
+- Composition: one controlled botanical family framing the product
+- Rule: do not imply botanicals are verified ingredients unless confirmed
+- Avoid: uncontrolled garden clutter and covered branding
 
-- Sculptural directional light
-- Controlled highlight on glass and cap
-- Deliberate shadow shape
+## Blueprint 12 — Glass and Water
 
-### Copy
+- Objective: aquatic, citrus, fresh, or clean visual direction
+- Materials: glass, pale stone, ripples, droplets, translucent layers
+- Lighting: cool-neutral commercial light and realistic caustics
+- Avoid: bottle distortion, excessive splash, submerged label
 
-- Headline: 2–6 words
-- Optional one-line support copy
-- CTA usually omitted from pure editorial work
+## Blueprint 13 — Golden Gifting
 
-### QA Focus
+- Objective: holiday, occasion, or premium gift visual
+- Composition: product and supplied packaging; warm stone, silk, brass, crystal, or champagne tones
+- Copy: `A Gift to Remember` / `Beautifully Chosen`
+- Avoid: invented gift set, unsupported promotion, excessive glitter
 
-Accurate geometry, restrained styling, readable label, and no decorative overload.
+## Blueprint 14 — Luxury CGI Product World
 
----
+- Objective: concept-driven cinematic environment
+- Composition: product 35–65%; one coherent material world
+- Worlds: sculpted stone, glass architecture, water/light, silk/metal, resin/smoke
+- QA: effects never mutate, hide, or overpower product
 
-## Blueprint 03 — Luxury Beauty Campaign
+## Blueprint 15 — Facebook Cover
 
-### Objective
+- Objective: wide brand or campaign cover optimized for desktop and mobile crops
+- Composition: requested dimensions, center-safe hierarchy, clean logo/website zone, generous breathing room
+- QA: mobile-safe crop, logo fidelity, no small edge details
 
-Create an aspirational human + product beauty visual.
+## Blueprint 16 — Analyze, Then Create
 
-### Composition
+User request example: `Analyze this fragrance and create the best campaign.`
 
-- Face or upper body: 55–70% of frame
-- Product: 20–40%, clearly recognizable
-- Product held near face, shoulder, neck, or chest
-- Natural hand placement
+Expected workflow:
+1. Identify visible packaging cues and verified fragrance information.
+2. Select women's, men's, unisex, couple, lifestyle, grooming, editorial, CGI, or commercial system.
+3. Select platform-appropriate ratio and hierarchy.
+4. Create the visual directly.
+5. Explain the selected direction briefly only when useful.
 
-### Lighting
+Do not stop after giving analysis when the user also requested creation.
 
-- Soft beauty key
-- Refined skin highlights
-- Controlled rim light
-- Background falloff or premium bokeh
+## Blueprint 17 — Analysis Only
 
-### Camera
+User request: `Analyze this fragrance and recommend the best creative direction.`
 
-- 50–85mm portrait language
-- Eye-level or subtly low angle
-- Product and face both resolved
+Expected text output:
+- Recommended campaign system
+- Target audience direction
+- Mood and palette
+- Composition
+- Lighting and camera
+- Material/prop direction
+- Copy direction
+- Best platform/application
 
-### QA Focus
+Do not generate an image unless creation was also requested.
 
-Anatomy, fingers, label visibility, natural grip, realistic skin, and product fidelity.
+## Blueprint 18 — Copy Only
 
----
+User request: `Write premium US-market marketing copy for this product.`
 
-## Blueprint 04 — Luxury Social Product Launch
+Expected text output as appropriate:
+- Headline
+- Support line
+- CTA
+- Social caption
+- Product description
+- Hashtags
 
-### Objective
+Do not imply that a visual was generated.
 
-Create a mobile-readable launch asset for Facebook or Instagram.
+## Final Selection Rule
 
-### Composition
-
-- 1:1 or 4:5
-- Product-first hierarchy
-- Product occupies 40–65% of visual hierarchy
-- Compact headline zone
-- Optional CTA and website
-
-### Copy Example
-
-- Headline: `New to Bhalow`
-- Support: `Discover a distinctive addition to your fragrance collection.`
-- CTA: `Shop Now`
-
-### QA Focus
-
-Thumbnail clarity, text legibility, safe margins, and premium restraint.
-
----
-
-## Blueprint 05 — Clean Website Thumbnail
-
-### Objective
-
-Create an e-commerce product-grid image.
-
-### Composition
-
-- 1:1
-- Product centered or optically balanced
-- Product occupies 65–85% of canvas height
-- White or soft neutral background
-- Soft realistic drop shadow allowed
-
-### Prohibitions
-
-- No copy
-- No CTA
-- No Bhalow logo
-- No campaign props
-- No decorative background
-
-### QA Focus
-
-Product accuracy, clean edges, realistic shadow, and consistent catalog presentation.
-
----
-
-## Blueprint 06 — Dark Luxury Campaign
-
-### Objective
-
-Support woody, oud, leather, spicy, evening, or masculine fragrance direction.
-
-### Composition
-
-- Product centered or slightly off-axis
-- Dark stone, smoked glass, bronze, leather, or controlled haze
-- Strong silhouette separation
-
-### Lighting
-
-- Warm rim light
-- Narrow controlled highlights
-- Deep but readable shadows
-
-### Copy Direction
-
-- `A Quiet Kind of Bold`
-- `Defined After Dark`
-- `Presence, Refined`
-
-### QA Focus
-
-Do not crush product detail or hide the label in black-on-black styling.
-
----
-
-## Blueprint 07 — Botanical Luxury Campaign
-
-### Objective
-
-Support floral, green, fresh, or nature-led fragrance direction.
-
-### Composition
-
-- Product remains dominant
-- Controlled stems, petals, or botanical framing
-- One floral family rather than an uncontrolled garden
-- Clear label zone
-
-### Lighting
-
-- Soft diffused key
-- Delicate highlights
-- Airy background depth
-
-### QA Focus
-
-Botanicals frame the product without implying unverified ingredients or covering branding.
-
----
-
-## Blueprint 08 — Glass and Water Campaign
-
-### Objective
-
-Support aquatic, citrus, clean, or fresh fragrance direction.
-
-### Composition
-
-- Product on glass, pale stone, or reflective surface
-- Controlled ripples, droplets, or translucent layers
-- Avoid submerging critical label areas
-
-### Lighting
-
-- Cool-to-neutral commercial light
-- Edge highlights
-- Realistic refraction and caustic behavior
-
-### QA Focus
-
-No bottle distortion, excessive splash, or unreadable label.
-
----
-
-## Blueprint 09 — Golden Gifting Campaign
-
-### Objective
-
-Create a premium holiday or occasion-led gift visual.
-
-### Composition
-
-- Product and packaging together when supplied
-- Champagne, ivory, silk, brass, crystal, or warm stone
-- Gift cues remain secondary to product
-
-### Copy Direction
-
-- `A Gift to Remember`
-- `Beautifully Chosen`
-- `The Fragrance Gift Edit`
-
-### QA Focus
-
-Avoid excessive glitter, invented gift packaging, or unsupported promotional terms.
-
----
-
-## Blueprint 10 — Luxury CGI Product World
-
-### Objective
-
-Create a concept-driven environment while preserving the exact product.
-
-### Composition
-
-- Product occupies 35–65% of hierarchy
-- One coherent material world
-- Depth, scale, and motion support the fragrance mood
-
-### Suitable Worlds
-
-- Sculpted stone and shadow
-- Translucent glass architecture
-- Controlled botanical forms
-- Water and light
-- Silk and metallic ribbons
-- Amber resin and smoke
-
-### QA Focus
-
-The environment must not mutate, hide, or visually overpower the product.
-
----
-
-## Blueprint 11 — Facebook Cover
-
-### Objective
-
-Create a wide premium brand or campaign cover optimized for desktop and mobile cropping.
-
-### Composition
-
-- Use requested Facebook cover dimensions
-- Keep essential content in the center safe area
-- Reserve clean logo and website zone
-- Use one hero product group or campaign scene
-- Maintain generous breathing room
-
-### Copy
-
-- One brand or campaign statement
-- Website may appear beneath the official logo
-
-### QA Focus
-
-Logo fidelity, safe cropping, text readability, and avoidance of small details near edges.
-
----
-
-## Blueprint 12 — Product + Box Commercial Shot
-
-### Objective
-
-Present bottle and packaging as a coherent retail set.
-
-### Composition
-
-- Bottle is primary
-- Box is secondary and slightly behind or beside it
-- Maintain true relative scale
-- Keep label and packaging artwork visible
-
-### Lighting
-
-- Broad soft key
-- Controlled edge highlights
-- Shared ground shadow
-
-### QA Focus
-
-No incorrect box artwork, duplicate products, mismatched scale, or inconsistent perspective.
-
----
-
-## Blueprint Selection Rule
-
-Select the blueprint by campaign intent, not merely by format.
-
-Examples:
-
-- “Facebook post” identifies a platform, not an art direction.
-- “Homepage hero” identifies an asset and invokes the commercial hero system.
-- “Luxury perfume ad” still requires choosing editorial, beauty, CGI, or commercial direction from the product and context.
-
-## Final Example Rule
-
-Use examples to improve decisions, not to repeat identical layouts. Every final concept must respond to the actual product, audience, and campaign objective.
+Select by operating mode, product, audience, and objective—not merely by words such as poster, banner, ad, men's, or women's. Never infer fragrance facts or gender positioning from bottle color alone.
